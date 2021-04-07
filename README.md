@@ -7,6 +7,7 @@ Meme API: >-
 # Welcome
 
 ## **Installation** <a id="installation"></a>
+[discord](https://discord.gg/emD44ZJaSA)
 
 ```text
 npm install meme-api
