@@ -10,7 +10,7 @@ Meme API: >-
 [discord](https://discord.gg/emD44ZJaSA)
 
 ```text
-npm install meme-api
+npm install memer-api
 ```
 
 ## **Features**
