@@ -36,9 +36,9 @@ memer.jail(avatar).then(jail=> {
 
 ## PREVIEWS
 
-![](../.gitbook/assets/example-meme-api.png)
+![IMAGE](../.gitbook/assets/example-meme-api.png)
 
-![](../.gitbook/assets/facts-1.png)
+![IMAGE](../.gitbook/assets/facts-1.png)
 
-![](../.gitbook/assets/facts-2.png)
+![IMAGE](../.gitbook/assets/facts-2.png)
 
