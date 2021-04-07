@@ -1,5 +1,5 @@
 ---
-description: >-
+Meme API: >-
   Meme API is a powerful module that allows you to manipulate images very
   easily.
 ---
