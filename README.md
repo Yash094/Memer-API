@@ -43,3 +43,6 @@ memer.jail(avatar).then(jail=> {
 
 ![IMAGE](lib/facts-2.png)
 
+## Credits
+[IMGEN](https://github.com/DankMemer/imgen)
+[WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
