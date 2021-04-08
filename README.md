@@ -45,4 +45,6 @@ memer.jail(avatar).then(jail=> {
 
 ## Credits
 [IMGEN](https://github.com/DankMemer/imgen)
+
+
 [WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
