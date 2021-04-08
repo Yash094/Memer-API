@@ -22,7 +22,6 @@ npm install memer-api
 * **Great Support**
 * **Flexible**
 
-## Join our Discord server
 
 ## Examples
 
