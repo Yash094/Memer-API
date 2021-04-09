@@ -136,7 +136,7 @@ class Meme {
         if(!avatar) throw new SyntaxError("You are Missing the AVATAR") 
 
         return new Promise((resolve, reject) => {
-            fetch.get(encodeURI(`${base}/balloon?avatars=${avatar}`)).then((data) => {
+            fetch.get(encodeURI(`${base}/hitler?avatars=${avatar}`)).then((data) => {
                 //send data back
                 resolve(data.raw) 
                 return;
@@ -684,7 +684,7 @@ class Meme {
         if(!avatar) throw new SyntaxError("You are Missing the AVATAR") 
 
         return new Promise((resolve, reject) => {
-            fetch.get(encodeURI(`${base}/goggles?avatars=${avatar}`)).then((data) => {
+            fetch.get(encodeURI(`${base}/bongocat?avatars=${avatar}`)).then((data) => {
                 //send data back
                 resolve(data.raw) 
                 return;
