@@ -57,10 +57,10 @@ Maintained by: [@Tomato6966](https://github.com/Tomato6966) & [@shinchanOP](http
 
 ## PREVIEWS
 
-![IMAGE](lib/example-meme-api.png)
+![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053370122862652/example-meme-api.png)
 
-![IMAGE](lib/facts-1.png)
+![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053341252943872/facts-1.png)
 
-![IMAGE](lib/facts-2.png)
+![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053386946609162/facts-2.png)
 
 
