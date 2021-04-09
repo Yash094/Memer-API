@@ -22,6 +22,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 
 **Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
 
+**Check out the [Example Discord Bot](https://github.com/shinchanOP/example-bot-memer-api) Repository, if you are stuck;)**
 
 ## **Features**
 
