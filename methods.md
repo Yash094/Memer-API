@@ -269,7 +269,7 @@ const memer = new Meme()
 
 const text = "MEME API IS AWESOME"
 
-memer.walking(text).then(image => {
+memer.keepdistance(text).then(image => {
     //now you have a "BUFFER", for Discord create an attachment
       //const attachment = new Discord.MessageAttachment(image, "walking.png");
       //<Channel>.send(attachment) 
