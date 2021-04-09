@@ -16,16 +16,18 @@ client.on("message", (message) => {
 
     const args = message.content.slice("!".length).split(" ");
     const cmd = args.shift().toLowerCase();
-
-    if (cmd === "!abandon") {
+    
+    if (cmd === "abandon") {
         //create image and send it in the channel 
         memer.abandon(args.join(" ")).then(image => {
             const attachment = new Discord.MessageAttachment(image, "spank.png");
             return message.channel.send(attachment);
+        }).catch(e => {
+            message.channel.send(String(e).substr(0, 2000), {code: "js"})
         })
     }
     
 });
 
 //login to the Discord Bot
-client.login("TOKEN");
+client.login("YOUR DISCORD BOT TOKEN GOES HERE");
