@@ -1,14 +1,14 @@
 <div align="center">
   <p>
     <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
+  <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/1?" alt="Status Badge"></a>
+  <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
   </p>
 </div>
 
 # Memer Api - Welcome
 
 Memer API is a powerful module that allows you to manipulate images very easily.
-
-*Current API latency from input to return finished Image: 300-500ms*
 
 ## **Installation** 
 ```
@@ -22,7 +22,6 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 
 **Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
 
-**Check out the [Example Discord Bot](https://github.com/shinchanOP/example-bot-memer-api) Repository, if you are stuck;)**
 
 ## **Features**
 
