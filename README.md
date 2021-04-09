@@ -9,6 +9,7 @@
 # Memer Api - Welcome
 
 Memer API is a powerful module that allows you to manipulate images very easily.
+*Current API latency from input to return finished Image: 300-500ms*
 
 ## **Installation** 
 ```
