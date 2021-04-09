@@ -1,8 +1,6 @@
 <div align="center">
   <p>
     <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
-    <img alt="Codacy Grade" src="https://img.shields.io/codacy/grade/79c8b7d7d026410f8e1b7e9d326167a7?label=Codacy%20Score">
-    <img alt="Github Grade" src="https://img.shields.io/github/grade/github/shinchanOP/memer-api?label=Codefactor%20Score">
   </p>
 </div>
 
