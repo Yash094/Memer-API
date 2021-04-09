@@ -1,17 +1,27 @@
----
-Memer API: >-
-  Meme API is a powerful module that allows you to manipulate images very
-  easily.
----
+<div align="center">
+  <p>
+    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
+    <img alt="Codacy Grade" src="https://img.shields.io/codacy/grade/79c8b7d7d026410f8e1b7e9d326167a7?label=Codacy%20Score">
+    <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/skick1234/DisTube?label=Codefactor%20Score">
+  </p>
+</div>
 
-# Welcome
+# Memer Api - Welcome
 
-## **Installation** <a id="installation"></a>
-[discord](https://discord.gg/emD44ZJaSA)
+Memer API is a powerful module that allows you to manipulate images very easily.
 
-```text
+## **Installation** 
+```
 npm install memer-api
 ```
+```js
+const Meme = require("meme-api");
+const memer = new Meme();
+member.<Method>(<Options>); //returns -> Promise -> <Buffer>
+```
+
+**Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
+
 
 ## **Features**
 
@@ -25,14 +35,24 @@ npm install memer-api
 
 ## Examples
 
-```text
-const Meme = require("meme-api");
-const memer = new Meme()
-const avatar = "https://cdn.discordapp.com/embed/avatars/0.png"
+```js
+const Meme = require("meme-api"), Discord = require("discord.js"), memer = new Meme();
+
+const avatar = "https://imgur.com/I5DmdNR.png"; //only static images supported / works! no gifs / videos
+
 memer.jail(avatar).then(jail=> {
-    //send to a channel 
+    //now you have a "BUFFER", for Discord create an attachment
+      //var attachment = new Discord.MessageAttachment(image, "bed.png");
+      //<Channel>.send(attachment)
 })
 ```
+
+## Credits
+[IMGEN](https://github.com/DankMemer/imgen)
+
+[WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
+
+Made by: [@shinchanOP](https://github.com/shinchanOP), upgraded & maintained by: [@Tomato6966](https://github.com/Tomato6966)
 
 ## PREVIEWS
 
@@ -42,8 +62,4 @@ memer.jail(avatar).then(jail=> {
 
 ![IMAGE](lib/facts-2.png)
 
-## Credits
-[IMGEN](https://github.com/DankMemer/imgen)
 
-
-[WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
