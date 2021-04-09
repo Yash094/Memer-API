@@ -20,7 +20,7 @@ client.on("message", (message) => {
     if (cmd === "abandon") {
         //create image and send it in the channel 
         memer.abandon(args.join(" ")).then(image => {
-            const attachment = new Discord.MessageAttachment(image, "spank.png");
+            const attachment = new Discord.MessageAttachment(image, "abandon.png");
             return message.channel.send(attachment);
         }).catch(e => {
             message.channel.send(String(e).substr(0, 2000), {code: "js"})
