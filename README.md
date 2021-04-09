@@ -17,7 +17,7 @@ npm install memer-api
 ```js
 const Meme = require("meme-api");
 const memer = new Meme();
-member.<Method>(<Options>); //returns -> Promise -> <Buffer>
+memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
 **Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
