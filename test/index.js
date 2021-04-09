@@ -18,6 +18,7 @@ client.on("message", (message) => {
     const cmd = args.shift().toLowerCase();
     
     if (cmd === "abandon") {
+        if(!args[0]) return message.reply("Unknown useage, try this: `!abandon <TEXT>`");
         //create image and send it in the channel 
         memer.abandon(args.join(" ")).then(image => {
             const attachment = new Discord.MessageAttachment(image, "abandon.png");
