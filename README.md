@@ -8,6 +8,11 @@
   </p>
 </div>
 
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
+
 # Memer Api - Welcome
 
 Memer API is a powerful module that allows you to manipulate images very easily.
