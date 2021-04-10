@@ -39,7 +39,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ## Examples
 
 ```js
-const Meme = require("meme-api"), Discord = require("discord.js"), memer = new Meme();
+const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme();
 
 const avatar = "https://imgur.com/I5DmdNR.png"; //only static images supported / works! no gifs / videos
 
