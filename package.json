@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shinchanOP/discord-audit-log-webhook.git"
+    "url": "git@github.com:shinchanOP/memer-api.git"
   },
-  "homepage": "https://github.com/shinchanOP",
+  "homepage": "https://github.com/Milrato-Development",
   "keywords": [
     "memerapi",
     "memer-api",
