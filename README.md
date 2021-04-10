@@ -23,6 +23,9 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 **Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
 
 
+**For more help view [Documentation ](https://memer-api.js.org)**
+
+
 ## **Features**
 
 * **Super simple**
