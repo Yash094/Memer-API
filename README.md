@@ -4,6 +4,7 @@
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/1?" alt="Status Badge"></a>
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
   <a href=""><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source"></a>
+  <a href=""><img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Open Source"></a>
   </p>
 </div>
 
