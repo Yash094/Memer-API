@@ -22,7 +22,7 @@ Memer API is a powerful module that allows you to manipulate images very easily.
 npm install memer-api
 ```
 ```js
-const Meme = require("meme-api");
+const Meme = require("memer-api");
 const memer = new Meme();
 memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
