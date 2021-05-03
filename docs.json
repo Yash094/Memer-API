@@ -1,0 +1,1266 @@
+{
+  "meta": {
+    "generator": "0.9.0",
+    "format": 20,
+    "date": 1620036861051
+  },
+  "custom": {
+    "welcome": {
+      "name": "Welcome",
+      "files": {
+        "welcome": {
+          "name": "General",
+          "type": "md",
+          "content": "# Memer Api - Welcome\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n\n## **Installation**\n\nGet in touch with memer-api, really fast and easy:\n\n```\nnpm install memer-api\n```\n\n## First Use - with NODEJS\n\nOnce you installed the package, simply add it to your javascript File. Here an Example for nodejs\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```",
+          "path": "docs/welcome/welcome.md"
+        },
+        "started": {
+          "name": "Getting started",
+          "type": "md",
+          "content": "# Documentation\n\nMemer-API is a powerful module that allows you to manipulate images very easily.\n\n\n## Install the Api-Module:\n```npm install memer=api```\n\n## Use the Api-Module\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\n\n\n//Little Example: \nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nmemer.dab(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"dab.png\");\n      //<Channel>.send(attachment) \n})\n```\n\n",
+          "path": "docs/welcome/started.md"
+        }
+      }
+    },
+    "examples": {
+      "name": "Examples",
+      "files": {
+        "examplebot": {
+          "name": "Example",
+          "type": "js",
+          "content": "//Import the Module directly, as with an forc ;) as well as discord.js and create a new client for discord bot & memer Bot\nconst Meme = require(\"meme-api\"),\n    Discord = require(\"discord.js\"),\n    client = new Discord.Client(),\n    memer = new Meme();\n\n//login to the Discord Bot\nclient.login(\"YOUR DISCORD BOT TOKEN GOES HERE\");\n\n//Read Event \nclient.on(\"ready\", () => {\n    console.log(\"Memer is online!\"); // eslint-disable-line no-console\n});\n\n//Log Message\nclient.on(\"message\", (message) => {\n    //if in a dm or msg from a bot, return \n    if (!message.guild || message.author.bot) return; \n\n    const args = message.content.slice(\"!\".length).split(\" \");\n    const cmd = args.shift().toLowerCase();\n    //Example Command useage:  !abandon <TEXT>\n    if (cmd === \"abandon\") {\n        if(!args[0]) return message.reply(\"Unknown useage, try this: `!abandon <TEXT>`\");\n        //create image and send it in the channel  with the added arguments to the command\n        memer.abandon(args.join(\" \")).then(image => {\n            const attachment = new Discord.MessageAttachment(image, \"abandon.png\");\n            return message.channel.send(attachment);\n        }).catch(e => {\n            message.channel.send(String(e).substr(0, 2000), {code: \"js\"})\n        })\n    }\n    \n});",
+          "path": "docs/examples/examplebot.js"
+        }
+      }
+    }
+  },
+  "classes": [
+    {
+      "name": "@class",
+      "meta": {
+        "line": 5,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "abandon",
+      "construct": {
+        "name": "abandon",
+        "params": [
+          {
+            "name": "text",
+            "description": "text to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 8,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "failure",
+      "construct": {
+        "name": "failure",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 29,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "trash",
+      "construct": {
+        "name": "trash",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 48,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "satan",
+      "construct": {
+        "name": "satan",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 67,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "stroke",
+      "construct": {
+        "name": "stroke",
+        "params": [
+          {
+            "name": "text",
+            "description": "to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 86,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "roblox",
+      "construct": {
+        "name": "roblox",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 105,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "hitler",
+      "construct": {
+        "name": "hitler",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 124,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "bed",
+      "construct": {
+        "name": "bed",
+        "params": [
+          {
+            "name": "avatar1",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 143,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "jail",
+      "construct": {
+        "name": "jail",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 164,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "delete",
+      "construct": {
+        "name": "delete",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 183,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "emergencymeeting",
+      "construct": {
+        "name": "emergencymeeting",
+        "params": [
+          {
+            "name": "text",
+            "description": "text to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 202,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "byemom",
+      "construct": {
+        "name": "byemom",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "username",
+            "description": "Username to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 221,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "walking",
+      "construct": {
+        "name": "walking",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 246,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "keepdistance",
+      "construct": {
+        "name": "keepdistance",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 265,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "fakenews",
+      "construct": {
+        "name": "fakenews",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 284,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "wanted",
+      "construct": {
+        "name": "wanted",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 303,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "godwhy",
+      "construct": {
+        "name": "godwhy",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 322,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "violence",
+      "construct": {
+        "name": "violence",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 341,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "ipad",
+      "construct": {
+        "name": "ipad",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 360,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "laid",
+      "construct": {
+        "name": "laid",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 379,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "ugly",
+      "construct": {
+        "name": "ugly",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 398,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "shit",
+      "construct": {
+        "name": "shit",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 417,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "humansgood",
+      "construct": {
+        "name": "humansgood",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 436,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "whodidthis",
+      "construct": {
+        "name": "whodidthis",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 455,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "floor",
+      "construct": {
+        "name": "floor",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 474,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "obama",
+      "construct": {
+        "name": "obama",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 496,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "note",
+      "construct": {
+        "name": "note",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 518,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "airpods",
+      "construct": {
+        "name": "airpods",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 537,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "america",
+      "construct": {
+        "name": "america",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 556,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "aborted",
+      "construct": {
+        "name": "aborted",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 575,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "affect",
+      "construct": {
+        "name": "affect",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 594,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "armor",
+      "construct": {
+        "name": "armor",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 613,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "facts",
+      "construct": {
+        "name": "facts",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 632,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "bongocat",
+      "construct": {
+        "name": "bongocat",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 651,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "brazzers",
+      "construct": {
+        "name": "brazzers",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 670,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "cancer",
+      "construct": {
+        "name": "cancer",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 689,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "changemymind",
+      "construct": {
+        "name": "changemymind",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 708,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "communism",
+      "construct": {
+        "name": "communism",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 725,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "corporate",
+      "construct": {
+        "name": "corporate",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 744,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "cry",
+      "construct": {
+        "name": "cry",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 763,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "dab",
+      "construct": {
+        "name": "dab",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 782,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "disability",
+      "construct": {
+        "name": "disability",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 801,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "door",
+      "construct": {
+        "name": "door",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 820,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "egg",
+      "construct": {
+        "name": "egg",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 839,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "excuseme",
+      "construct": {
+        "name": "excuseme",
+        "params": [
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 858,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "youtube",
+      "construct": {
+        "name": "youtube",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "username",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 877,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "tweet",
+      "construct": {
+        "name": "tweet",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "username",
+            "description": "Url to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "text",
+            "description": "Text to genereate the Meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 902,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    }
+  ],
+  "interfaces": [],
+  "typedefs": [],
+  "externals": []
+}
