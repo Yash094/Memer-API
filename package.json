@@ -1,6 +1,6 @@
 {
   "name": "memer-api",
-  "version": "2.1.4",
+  "version": "2.2.1",
   "description": "An Image Manipulation API With More than 50+ commands",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git@github.com:shinchanOP/memer-api.git"
   },
-  "homepage": "https://github.com/Milrato-Development",
+  "homepage": "https://github.com/Memer-Api",
   "keywords": [
     "memerapi",
     "memer-api",

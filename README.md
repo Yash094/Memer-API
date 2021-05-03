@@ -17,7 +17,6 @@
 
 Memer API is a powerful module that allows you to manipulate images very easily.
 
-
 ## **Installation** 
 ```
 npm install memer-api
@@ -28,7 +27,7 @@ const memer = new Meme();
 memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
-**Join our [Discord Server](https://discord.gg/pe3V7uT) for Support**
+**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**
 
 
 **For more help view [Documentation ](https://memer-api.js.org)**
@@ -63,7 +62,7 @@ memer.jail(avatar).then(jail=> {
 
 [WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
 
-Made by: [@shinchanOP](https://github.com/shinchanOP), 
+Made by: [@shinchanOP](https://github.com/shinchanOP),
 Maintained by: [@Tomato6966](https://github.com/Tomato6966) & [@shinchanOP](https://github.com/shinchanOP)
 
 ## PREVIEWS
