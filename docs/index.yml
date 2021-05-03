@@ -1,0 +1,10 @@
+- name: Welcome
+  files:
+    - name: General
+      path: welcome.md
+    - name: Getting started
+      path: started.md
+- name: Examples
+  files:
+    - name: Example
+      path: examplebot.js
