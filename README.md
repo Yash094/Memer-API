@@ -62,8 +62,8 @@ memer.jail(avatar).then(jail=> {
 
 [WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
 
-Made by: [@shinchanOP](https://github.com/Yash094),
-Maintained by: [@Tomato6966](https://github.com/Tomato6966) & [@shinchanOP](https://github.com/Yash094)
+Made by: [@Yash094](https://github.com/Yash094),
+Maintained by: [@Tomato6966](https://github.com/Tomato6966) & [@Yash094](https://github.com/Yash094)
 
 ## PREVIEWS
 
