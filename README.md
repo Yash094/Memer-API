@@ -15,9 +15,12 @@
 
 # Memer Api - Welcome
 
+
+<img src="https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true" alt="NPM info">
+
 Memer API is a powerful module that allows you to manipulate images very easily.
 
-<img src="https://nodei.co/npm/memer-apipng?downloads=true&stars=true">
+
 
 
 ## **Installation** 
