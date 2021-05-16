@@ -2,7 +2,7 @@
   "meta": {
     "generator": "0.9.0",
     "format": 20,
-    "date": 1621169667496
+    "date": 1621170904552
   },
   "custom": {
     "welcome": {
@@ -11,7 +11,7 @@
         "welcome": {
           "name": "General",
           "type": "md",
-          "content": "# Memer Api - Welcome\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install memer-api\n```\n\n```js\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n\n**For more help view [Documentation ](https://memer-api.js.org)**\n\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **More than 40 methods.**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n\n## Examples\n\n```js\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme();\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images supported / works! no gifs / videos\n\nmemer.jail(avatar).then(jail=> {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //var attachment = new Discord.MessageAttachment(image, \"bed.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n## PREVIEWS\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053370122862652/example-meme-api.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053341252943872/facts-1.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053386946609162/facts-2.png)\n\n\n",
+          "content": "# Memer Api - Welcome\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install memer-api\n```\n\n```js\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n\n**For more help view [Documentation ](https://memer-api.js.org)**\n\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Memer Api**\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **More than 40 methods.**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n\n## Examples\n\n```js\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme();\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images supported / works! no gifs / videos\n\nmemer.jail(avatar).then(jail=> {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //var attachment = new Discord.MessageAttachment(image, \"bed.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n\n## PREVIEWS\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053370122862652/example-meme-api.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053341252943872/facts-1.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053386946609162/facts-2.png)\n\n\n",
           "path": "docs/welcome/welcome.md"
         }
       }
