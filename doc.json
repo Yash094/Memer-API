@@ -34,7 +34,14 @@
       }
     }
   },
-  "classes": [],
+  "classes": [ {
+      "name": "@class",
+      "meta": {
+        "line": 5,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    }],
   "interfaces": [],
   "typedefs": [],
   "externals": []
