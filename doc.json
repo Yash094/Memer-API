@@ -2,7 +2,7 @@
   "meta": {
     "generator": "0.9.0",
     "format": 20,
-    "date": 1621167848793
+    "date": 1621168147988
   },
   "custom": {
     "welcome": {
@@ -28,7 +28,7 @@
         "examplebot": {
           "name": "Examples Bot",
           "type": "md",
-          "content": "# Example Discord Bot\nThis is an Example of a very basic Discord Bot with Memer-Api!\n\nMake sure to install the all the dependeces\n\n```\n\n//Import the Module directly, as with an forc ;) as well as discord.js and create a new client for discord bot & memer Bot\nconst Meme = require(\"meme-api\"),\n    Discord = require(\"discord.js\"),\n    client = new Discord.Client(),\n    memer = new Meme();\n​\n//login to the Discord Bot\nclient.login(\"YOUR DISCORD BOT TOKEN GOES HERE\");\n​\n//Read Event\nclient.on(\"ready\", () => {\n    console.log(\"Memer is online!\"); // eslint-disable-line no-console\n});\n​\n//Log Message\nclient.on(\"message\", (message) => {\n    //if in a dm or msg from a bot, return \n    if (!message.guild || message.author.bot) return; \n​\n    const args = message.content.slice(\"!\".length).split(\" \");\n    const cmd = args.shift().toLowerCase();\n    //Example Command useage:  !abandon <TEXT>\n    if (cmd === \"abandon\") {\n        if(!args[0]) return message.reply(\"Unknown useage, try this: `!abandon <TEXT>`\");\n        //create image and send it in the channel  with the added arguments to the command\n        memer.abandon(args.join(\" \")).then(image => {\n            const attachment = new Discord.MessageAttachment(image, \"abandon.png\");\n            return message.channel.send(attachment);\n        }).catch(e => {\n            message.channel.send(String(e).substr(0, 2000), {code: \"js\"})\n        })\n    }\n    \n});\n\n​```",
+          "content": "# Example Discord Bot\nThis is an Example of a very basic Discord Bot with Memer-Api!\n\nMake sure to install the all the dependeces\n\n```\n\n//Import the Module directly, as with an forc ;) as well as discord.js and create a new client for discord bot & memer Bot\nconst Meme = require(\"meme-api\"),\n    Discord = require(\"discord.js\"),\n    client = new Discord.Client(),\n    memer = new Meme();\n​\n//login to the Discord Bot\nclient.login(\"YOUR DISCORD BOT TOKEN GOES HERE\");\n​\n//Read Event\nclient.on(\"ready\", () => {\n    console.log(\"Memer is online!\"); // eslint-disable-line no-console\n});\n​\n//Log Message\nclient.on(\"message\", (message) => {\n    //if in a dm or msg from a bot, return \n    if (!message.guild || message.author.bot) return; \n​\n    const args = message.content.slice(\"!\".length).split(\" \");\n    const cmd = args.shift().toLowerCase();\n    //Example Command useage:  !abandon <TEXT>\n    if (cmd === \"abandon\") {\n        if(!args[0]) return message.reply(\"Unknown useage, try this: !abandon <TEXT\");\n        //create image and send it in the channel  with the added arguments to the command\n        memer.abandon(args.join(\" \")).then(image => {\n            const attachment = new Discord.MessageAttachment(image, \"abandon.png\");\n            return message.channel.send(attachment);\n        }).catch(e => {\n            message.channel.send(String(e).substr(0, 2000), {code: \"js\"})\n        })\n    }\n})\n\n​```",
           "path": "docs/methods/examplebot.md"
         }
       }
