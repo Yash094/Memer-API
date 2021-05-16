@@ -73,10 +73,6 @@ Maintained by: [@Tomato6966](https://github.com/Tomato6966) & [@Yash094](https:/
 
 ## PREVIEWS
 
-![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053370122862652/example-meme-api.png)
-
-![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053341252943872/facts-1.png)
-
-![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053386946609162/facts-2.png)
+![IMAGE](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)
 
 
