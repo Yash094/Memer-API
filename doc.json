@@ -40,15 +40,7 @@
     }
   },
   "classes": [
-    {
-      "name": "Documentation",
-      "description": "Class that does stuff",
-      "meta": {
-        "line": 16,
-        "file": "documentation.js",
-        "path": "src"
-      }
-    }
+  
   ],
   "interfaces": [],
   "typedefs": [],
