@@ -1,3 +1,5 @@
+# THIS IS BETA VERSION WHICH WILL COME INTO PLACE FROM 10TH JUNE. THIS VERSION NEEDS A API TOKEN YOU CAN GET IT FROM [MEMER API](https://discord.com/invite/emD44ZJaSA)
+
 <div align="center">
   <p>
     <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
@@ -29,7 +31,7 @@ npm install memer-api
 ```
 ```js
 const Meme = require("memer-api");
-const memer = new Meme();
+const memer = new Meme('YOUR API TOKEN');
 memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
@@ -52,7 +54,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ## Examples
 
 ```js
-const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme();
+const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme('YOUR API TOKEN');
 
 const avatar = "https://imgur.com/I5DmdNR.png"; //only static images supported / works! no gifs / videos
 
