@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
+  <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/1?" alt="Status Badge"></a>
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
   <a href=""><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source"></a>
@@ -34,6 +34,8 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
 **Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**
+
+**Get Token For The Api [Get Token](https://discord.gg/emD44ZJaSA)**
 
 
 **For more help view [Documentation ](https://memer-api.js.org)**
