@@ -2,7 +2,7 @@
   "meta": {
     "generator": "0.9.0",
     "format": 20,
-    "date": 1621875522909
+    "date": 1623346671311
   },
   "custom": {
     "welcome": {
@@ -11,7 +11,7 @@
         "welcome": {
           "name": "General",
           "type": "md",
-          "content": "#### NOTICE: YOU WILL REQUIRE A TOKEN TO USE THE API FROM 10 JUNE! YOU CAN USE THE BETA VERSION TO KNOW HOW IT WILL WORK. THE BETA VERSION IS CURRENTLY OUT!\n#### ON 10TH OF JUNE WE WILL SWITCH THE BETA VERSION TO LATEST VERSION AND ANY OLD VERSIONS WILL NOT WORK FROM THEN\n#### WE WILL RECOMMEND YOU USE THE BETA VERSION AND NOT USE THE LATEST VERSION I.E 2.2.3 OR ANY OLDER VERSIONS AS THEY WILL BE OUT OF COMMISSION FROM 10TH JUNE\n\n# Memer Api - Welcome\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install memer-api\n```\n\n```js\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n\n**For more help view [Documentation ](https://memer-api.js.org)**\n\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Memer Api**\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **More than 40 methods.**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n\n## Examples\n\n```js\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme();\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images supported / works! no gifs / videos\n\nmemer.jail(avatar).then(jail=> {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //var attachment = new Discord.MessageAttachment(image, \"bed.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n\n## PREVIEWS\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053370122862652/example-meme-api.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053341252943872/facts-1.png)\n\n![IMAGE](https://cdn.discordapp.com/attachments/813806041543344218/830053386946609162/facts-2.png)\n\n\n",
+          "content": "# Memer Api - Welcome\n\nGET THE API TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA)\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install memer-api\n```\n\n```js\nconst Meme = require(\"memer-api\");\nconst memer = new Meme();\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n**For more help view [Documentation ](https://memer-api.js.org)**\n\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Memer Api**\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **More than 40 methods.**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n## GET THE TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA) WITH COMMAND ```meme gentoken```\n\n\n# HOW DOES IT WORK\n\n```\nconst Meme = require(\"memer-api\");\n\nconst memer = new Meme('Your Memer API Token');\n\n```\n\n# EXAMPLE\n```\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme('YOUR MEMER API TOKEN HERE');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.jail(avatar).then(jail=> {\n       var attachment = new Discord.MessageAttachment(image, \"jail.png\");\n      //<Channel>.send(attachment)\n})\n```\n# PREVIEWS\n\n![IMAGE](https://camo.githubusercontent.com/ad3c11a758f25c906f2eb2aa0283c467ba3a26ef837be2605ec8e427b6a0c42e/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830363735303835333934373731393736302f3834333537393031393832333534363336382f6d656d65722d6170695f707265766965772e706e67)\n\n\n",
           "path": "docs/welcome/welcome.md"
         }
       }
@@ -32,30 +32,9 @@
           "path": "docs/methods/list.md"
         }
       }
-    },
-    "beta version": {
-      "name": "Beta Version",
-      "files": {
-        "How to use": {
-          "name": "Usage",
-          "type": "md",
-          "content": "# Memer Api - Welcome\r\n\r\nGET THE API TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA) WITH COMMAND ```meme gentoken```\r\n\r\nMemer API is a powerful module that allows you to manipulate images very easily.\r\n\r\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\r\n\r\n## **Installation**\r\n\r\n```\r\nnpm install memer-api@beta\r\n```\r\n\r\n# HOW DOES IT WORK\r\nGET THE TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA) WITH COMMAND ```meme gentoken```\r\n\r\n```\r\nconst Meme = require(\"memer-api\");\r\n\r\nconst memer = new Meme('Your Memer API Token');\r\n```\r\n\r\n# EXAMPLE FOR BETA VERSION\r\n```\r\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme('YOUR MEMER API TOKEN HERE');\r\n\r\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\r\n\r\nmemer.jail(avatar).then(jail=> {\r\n       var attachment = new Discord.MessageAttachment(image, \"jail.png\");\r\n      //<Channel>.send(attachment)\r\n})\r\n```\r\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\r\n\r\n\r\n**For more help view [Documentation ](https://memer-api.js.org)**\r\n\r\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Memer Api Beta Version**\r\n",
-          "path": "docs/beta version/How to use.md"
-        }
-      }
-    },
-    "changelog": {
-      "name": "Changelog",
-      "files": {
-        "changelog": {
-          "name": "Changelog",
-          "type": "md",
-          "content": "# BETA VERSION 3.0.0 IS NOW OUT\r\n\r\n## CHANGES\r\n\r\n* ADDED WELCOME IMAGE\r\n\r\n* ADDED LEAVE IMAGE\r\n\r\n* ADDED TOKEN AUTHORIZATION I.E YOU WILL REQUIRE A TOKEN TO USE THE API\r\n\r\n\r\n#### ON 10TH OF JUNE WE WILL SWITCH THE BETA VERSION TO LATEST VERSION AND ANY OLD VERSIONS WILL NOT WORK FROM THEN\r\n#### WE WILL RECOMMEND YOU USE THE BETA VERSION AND NOT USE THE LATEST VERSION I.E 2.2.3 OR ANY OLDER VERSIONS WILL BE OUT OF COMMISSION FROM 10TH JUNE\r\n\r\n****\r\n\r\n## EXAMPLE USAGE WELCOME IMAGE(ONLY IN BETA VERSION)\r\n\r\n```\r\nconst Meme = require(\"memer-api\");\r\nconst memer = new Meme('YOUR MEMER API TOKEN');\r\nlet background = 'background image url'\r\nlet avatar = 'avatar url\r\nlet username = 'username (do not include discriminators)'\r\nmemer.welcome(username,avatar,background)\r\n\r\n```\r\n\r\n## RESULTS\r\n![image](https://media.discordapp.net/attachments/813823176927739945/846387614256463902/welcomeimageq.png?width=874&height=427)",
-          "path": "docs/changelog/changelog.md"
-        }
-      }
     }
   },
   "interfaces": [],
+  "typedefs": [],
   "externals": []
 }
