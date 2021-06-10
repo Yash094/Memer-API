@@ -1,6 +1,8 @@
+# THIS IS BETA VERSION FOR MEMER API. THIS VERSION NEEDS A API TOKEN YOU CAN GET IT FROM [MEMER API](https://discord.com/invite/emD44ZJaSA). FROM 10TH JUNE YOU WILL NEED A TOKEN TO USE ANY VERSION OF THE API!
+
 <div align="center">
   <p>
-  <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
+    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/1?" alt="Status Badge"></a>
   <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
   <a href=""><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source"></a>
@@ -29,13 +31,11 @@ npm install memer-api
 ```
 ```js
 const Meme = require("memer-api");
-const memer = new Meme();
+const memer = new Meme('YOUR API TOKEN');
 memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
 **Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**
-
-**Get Token For The Api [Get Token](https://discord.gg/emD44ZJaSA)**
 
 
 **For more help view [Documentation ](https://memer-api.js.org)**
@@ -54,7 +54,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ## Examples
 
 ```js
-const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme();
+const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme('YOUR API TOKEN');
 
 const avatar = "https://imgur.com/I5DmdNR.png"; //only static images supported / works! no gifs / videos
 
