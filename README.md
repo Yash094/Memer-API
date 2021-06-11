@@ -1,5 +1,4 @@
-THIS VERSION NEEDS A API TOKEN YOU CAN GET IT FROM [MEMER API](https://discord.com/invite/emD44ZJaSA). FROM 10TH JUNE YOU WILL NEED A TOKEN TO USE ANY VERSION OF THE API!
-
+THIS VERSION NEEDS A API TOKEN YOU CAN GET IT FROM [MEMER API](https://discord.com/invite/emD44ZJaSA). 
 <div align="center">
   <p>
     <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
