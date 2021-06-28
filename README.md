@@ -68,7 +68,7 @@ BITTMAX Quality is their solution. Bittmax is our first and probably most import
 
 ### What they are offering:
 
-`Quality LXC & KVM (Root) Server Minecraft Hosting, as well as BungeeCord Network Hosting support Cheap and fast Domains WEBHOSTING DISCORD, TEAMSPEAK, Setups / Music Bots GAME SERVER, Rust, Gary's Mod, ..`
+```Quality LXC & KVM (Root) Server Minecraft Hosting, as well as BungeeCord Network Hosting support Cheap and fast Domains WEBHOSTING DISCORD, TEAMSPEAK, Setups / Music Bots GAME SERVER, Rust, Gary's Mod, ..```
 
 Discord Server: https://discord.gg/GgjJZCyYKD
 
