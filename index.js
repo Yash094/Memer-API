@@ -10,6 +10,6 @@ function Meme(token) {
 //add Options to it
 Meme.Memer = meme;
 Meme.version = require("./package.json").version;
-Meme.author = "YASH & Tomato#6966",
+
 //exporting this meme
 module.exports = Meme;
