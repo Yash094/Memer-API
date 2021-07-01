@@ -1,28 +1,11 @@
-THIS VERSION NEEDS A API TOKEN YOU CAN GET IT FROM [MEMER API](https://discord.com/invite/emD44ZJaSA). 
-<div align="center">
-  <p>
-    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
-  <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/1?" alt="Status Badge"></a>
-  <a href="https://maintained.cc"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
-  <a href=""><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source"></a>
-  
-  </p>
-</div>
-
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-
-
-# Memer Api - Welcome
-
-
-<a href="https://www.npmjs.com/package/memer-api"><img src="https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true" alt="NPM info"></a>
-
-Memer API is a powerful module that allows you to manipulate images very easily.
-
-
-
+# Memer API
+<p align="center"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/818900078077018162/859725706396041246/memer_api.png"/></p><br/>
+<p align="center">
+   <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
+   <a href="https://discord.gg/invite/emD44ZJaSA"><img src="https://badgen.net/discord/online-members/emD44ZJaSA" alt="Discord"></a>
+</p>
+      
+> **Memer API is a powerful module that allows you to manipulate images very easily :)**
 
 ## **Installation** 
 ```
@@ -30,61 +13,62 @@ npm install memer-api
 ```
 ```js
 const Meme = require("memer-api");
-const memer = new Meme('YOUR API TOKEN');
+const memer = new Meme('Your Cool API Token');  // From Memer API Server :)
 memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```
 
-**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**
+## LINKS
+
+- 📃 Guide/Docs: [Documentation](https://memer-api.js.org/)
+- 💬 Discord: [Server](https://discord.com/invite/emD44ZJaSA)
 
 
-**For more help view [Documentation ](https://memer-api.js.org)**
+## Features
 
-
-## **Features**
-
-* **Super simple**
-* **Easy to use** 
-* **More than 40 methods.**
-* **Beginner-friendly** 
-* **Great Support**
-* **Flexible**
+- Super simple and easy to use.
+- More than 50+ methods
+- Easy to Implement.
+- Great support and flexible.
 
 
 ## Examples
 
 ```js
-const Meme = require("memer-api"), Discord = require("discord.js"), memer = new Meme('YOUR API TOKEN');
+const Meme = require("memer-api")
+const Discord = require("discord.js")
+cosnt memer = new Meme('Your Cool API Token'); // From Memer API Server :)
 
-const avatar = "https://imgur.com/I5DmdNR.png"; //only static images supported / works! no gifs / videos
+const avatar = "https://imgur.com/I5DmdNR.png"; // Only static images are supported :)
+const text = "Memer API is awesome!"
 
-memer.jail(avatar).then(jail=> {
-    //now you have a "BUFFER", for Discord create an attachment
-      //var attachment = new Discord.MessageAttachment(image, "bed.png");
-      //<Channel>.send(attachment)
+memer.youtube(avatar, 'Memer Api', text).then(image => {
+    // This gives you a 'Buffer', for Discord to create an attachment
+    
+    var attachment = new Discord.MessageAttachment(image, "youtube.png");
+    <channel>.send(attachment)
 })
 ```
-## BEST HOSTING | Bittmax.de
-BITTMAX Quality is their solution. Bittmax is our first and probably most important sponsor!
+
+## Hosting | Bittmax.de
+> **BITTMAX Quality is their solution. Bittmax is our first and probably most important sponsor!**
 
 ### What they are offering:
+> **Quality LXC & KVM (Root) Server Minecraft Hosting, as well as BungeeCord Network Hosting support Cheap and fast Domains WEBHOSTING DISCORD, TEAMSPEAK, Setups / Music Bots GAME > SERVER, Rust, Gary's Mod and so much more!**
 
-```Quality LXC & KVM (Root) Server Minecraft Hosting, as well as BungeeCord Network Hosting support Cheap and fast Domains WEBHOSTING DISCORD, TEAMSPEAK, Setups / Music Bots GAME SERVER, Rust, Gary's Mod and so much more```
+Discord : [Server!](https://discord.gg/NTnPuSaZVg) 
 
-Discord Server: https://discord.gg/NTnPuSaZVg
-
-Website: https://bittmax.de/
-
+Website: [Link!](https://bittmax.de/)
 
 ## Credits
-[IMGEN](https://github.com/DankMemer/imgen)
+Image Gen: [Link!](https://github.com/DankMemer/imgen)
 
-[WRAPPER BASED FROM SNOWFLAKES API WRAPPER](https://github.com/DevSnowflake/dankmemer.js#readme)
+Wrapper: [Based from Snowflake's Api Wrapper](https://github.com/DevSnowflake/dankmemer.js#readme)
 
 Made by: [@Yash094](https://github.com/Yash094)
 
 
-## PREVIEWS
+## Preview
 
-![IMAGE](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)
+![preview](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)
 
 
