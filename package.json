@@ -1,6 +1,6 @@
 {
   "name": "memer-api",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "An Image Manipulation API With More than 50+ commands",
   "main": "index.js",
   "scripts": {
