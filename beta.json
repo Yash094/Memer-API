@@ -1,18 +1,29 @@
 {
   "meta": {
-    "generator": "0.9.0",
+    "generator": "0.10.0",
     "format": 20,
-    "date": 1624188120678
+    "date": 1630236820085
   },
   "custom": {
-    "welcome": {
-      "name": "Welcome",
+    "general": {
+      "name": "General",
       "files": {
         "welcome": {
-          "name": "General",
+          "name": "Welcome",
           "type": "md",
-          "content": "# Memer Api - Welcome\n\nGET THE API TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA)\n\nMemer API is a powerful module that allows you to manipulate images very easily.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install memer-api\n```\n\n```js\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n**For more help view [Documentation ](https://memer-api.js.org)**\n\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Memer Api**\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **More than 40 methods.**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n## GET THE TOKEN FROM OUR [SUPPORT SERVER](https://discord.gg/emD44ZJaSA) WITH COMMAND ```meme gentoken```\n\n\n# HOW DOES IT WORK\n\n```\nconst Meme = require(\"memer-api\");\n\nconst memer = new Meme('Your Memer API Token');\n\n```\n\n# EXAMPLE\n```\nconst Meme = require(\"memer-api\"), Discord = require(\"discord.js\"), memer = new Meme('YOUR MEMER API TOKEN HERE');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.jail(avatar).then(jail=> {\n       var attachment = new Discord.MessageAttachment(image, \"jail.png\");\n      //<Channel>.send(attachment)\n})\n```\n# PREVIEWS\n\n![IMAGE](https://camo.githubusercontent.com/ad3c11a758f25c906f2eb2aa0283c467ba3a26ef837be2605ec8e427b6a0c42e/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3830363735303835333934373731393736302f3834333537393031393832333534363336382f6d656d65722d6170695f707265766965772e706e67)\n\n\n",
-          "path": "docs/welcome/welcome.md"
+          "content": "# Memer API\r\n<div align=\"center\"><br/>\r\n  <p>\r\n    <img style=\"width:0.5px\" src=\"https://cdn.discordapp.com/attachments/818900078077018162/859725706396041246/memer_api.png\" alt=\"memer-api\" />\r\n  </p><br/>\r\n  <p>\r\n    <a href=\"https://www.npmjs.com/package/memer-api\"><img src=\"https://img.shields.io/npm/dt/memer-api\" alt=\"NPM downloads\" /></a>\r\n    <a href=\"https://discord.gg/invite/emD44ZJaSA\"><img src=\"https://img.shields.io/discord/664505860327997461?color=5865F2&logo=discord&logoColor=white\" alt=\"Discord\"></a>\r\n  </p>\r\n</div>\r\n      \r\n> **Memer API is a powerful module that allows you to manipulate images very easily :)**\r\n\r\n## **Installation** \r\n```\r\nnpm install memer-api\r\n```\r\n```js\r\nconst Meme = require(\"memer-api\");\r\nconst memer = new Meme('Your Cool API Token');  // From Memer API Server :)\r\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\r\n```\r\n\r\n## LINKS\r\n\r\n- 📃 Guide/Docs: [Documentation](https://memer-api.js.org/)\r\n- 💬 Discord: [Server](https://discord.com/invite/emD44ZJaSA)\r\n\r\n\r\n## Features\r\n\r\n- Super simple and easy to use.\r\n- More than 50+ methods\r\n- Easy to Implement.\r\n- Great support and flexible.\r\n\r\n\r\n## Examples\r\n\r\n```js\r\nconst Meme = require(\"memer-api\")\r\nconst Discord = require(\"discord.js\")\r\ncosnt memer = new Meme('Your Cool API Token'); // From Memer API Server :)\r\n\r\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; // Only static images are supported :)\r\nconst text = \"Memer API is awesome!\"\r\n\r\nmemer.youtube(avatar, 'Memer Api', text).then(image => {\r\n    // This gives you a 'Buffer', for Discord to create an attachment\r\n    \r\n    var attachment = new Discord.MessageAttachment(image, \"youtube.png\");\r\n    <channel>.send(attachment)\r\n})\r\n```\r\n\r\n## Preview\r\n\r\n![preview](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)\r\n\r\n\r\n",
+          "path": "test/docs/general/welcome.md"
+        }
+      }
+    },
+    "changelog": {
+      "name": "ChangeLog",
+      "files": {
+        "changelog": {
+          "name": "ChangeLog",
+          "type": "md",
+          "content": "# Memer API v4 is Here!!\r\n\r\n## Introducing Memer API Premium 🎉\r\n\r\n*Turn your bots into a party with Memer API Premium! With Premium -  you can upgrade your meme stuff support Memer API and get some cool perks!* 😎\r\n\r\n\r\n❓ What comes with Memer API premium?\r\n\r\n✅ No Ratelimits    \r\n✅ Access to Premium Package  \r\n✅ Watermark Free     \r\n✅ Priority Support     \r\n✅ Shiny Premium Discord Role     \r\n... And much much more\r\n\r\n❓ How to buy & activate premium ?\r\n\r\n1) Go to this [Link](https://ko-fi.com/memerapi)   \r\n2) Subscribe to the monthly or lifetime package  \r\n3) Type \"m!premium\" in any channel to get your token   \r\n4) Premium users shall make the request to [Premium Special API](https://premium.memer-api.live/), which has no limits",
+          "path": "test/docs/changelog/changelog.md"
         }
       }
     },
@@ -20,19 +31,2274 @@
       "name": "Methods",
       "files": {
         "methods": {
-          "name": "Methods",
-          "type": "md",
-          "content": "# Memer\n## Every Method is structured the same! <method>(options)\n\n```\nmemer.abandon(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n    //const attachment = new Discord.MessageAttachment(image, \"abandon.png\");\n    //<Channel>.send(attachment)\n})\n```\n\n# METHODS\n\n```\nnew Meme()\nInitializes a new Meme which will return the Images!\n//Import package\nconst Meme = require(\"memer-api\");\n//create new Meme() Class\nconst memer = new Meme('YOUR API TOKEN');\n```\n\n### welcome(username,avatar,background) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst username = \"YASH\";\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\nconst background = \"https://imgur.com/I5DmdNR.png\";\nmemer.welcome(username,avatar,background).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"welcome.png\");\n      //<Channel>.send(attachment)\n})\n```\n### leave(username,avatar,background) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst username = \"YASH\";\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\nconst background = \"https://imgur.com/I5DmdNR.png\";\nmemer.leave(username,avatar,background).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"leave.png\");\n      //<Channel>.send(attachment)\n})\n```\n### abandon(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.abandon(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"abandon.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### affect(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.affect(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"affect.png\");\n      //<Channel>.send(attachment)\n})\n\n```\n### airpods(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.airpods(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"airpods.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### america(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.america(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"america.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### armor(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.armor(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"armor.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### bed(avatar1, avatar2) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar1 = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst avatar2 = \"https://imgur.com/wrkBFM8.png\"; //only static images \n\nmemer.bed(avatar1, avatar2).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"bed.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### brazzers(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\";\n\nmemer.brazzers(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"brazzers.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### byemom(avatar, username, text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst text = \"MEME API IS AWESOME\"\nconst username = \"MEME API\"\n\nmemer.byemom(avatar, username, text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"byemom.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### cancer(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.cancer(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"cancer.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### changemymind(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.changemymind(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"changemymind.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### communism(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.communism(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"communism.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### corporate(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.corporate(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"corporate.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### cry(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.cry(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"cry.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### dab(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.dab(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"dab.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### delete(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.delete(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"delete.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### disability(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.disability(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"disability.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### door(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.door(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"door.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### egg(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.egg(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"egg.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### emergencymeeting(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n```\nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.emergencymeeting(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"emergencymeeting.png\");\n      //<Channel>.send(attachment)\n})\n```\n\n### excuseme(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.excuseme(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"excuseme.png\");\n      //<Channel>.send(attachment)\n}) \n```\n### facts(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.facts(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"facts.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### failure(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.failure(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"failure.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### fakenews(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.fakenews(avatar).then(image => {    \n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"fakenews.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### floor(text, avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst text = \"MEME API IS AWESOME\"\n\nmemer.floor(text, avatar).then(image => {   \n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"floor.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### godwhy(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.godwhy(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"Godwhy.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### hitler(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.hitler(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"hitler.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### ipad(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.ipad(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"ipad.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### jail(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.jail(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"jail.png\");\n      //<Channel>.send(attachment)\n})\n ```\n\n### keepdistance(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.keepdistance(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"keepdistance.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### note(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.note(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"note.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### obama(text, avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst text = \"MEME API IS AWESOME\"\n\nmemer.obama(text, avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"obama.png\");\n      //<Channel>.send(attachment)\n})\n ```\n\n### roblox(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.roblox(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"roblox.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### satan(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.satan(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"satan.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### shit(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.shit(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"shit.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### stroke(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.stroke(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"stroke.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### trash(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.trash(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"trash.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### tweet(avatar, username, text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst text = \"MEME API IS AWESOME\";\nconst username = \"MEME API\";\n\nmemer.tweet(avatar, username, text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"tweet.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### violence(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\";\n\nmemer.violence(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"violence.png\");\n      //<Channel>.send(attachment)\n}) \n\n```\n\n### walking(text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst text = \"MEME API IS AWESOME\"\n\nmemer.walking(text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"walking.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### wanted(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.wanted(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"wanted.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### whodidthis(avatar) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \n\nmemer.whodidthis(avatar).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"whodidthis.png\");\n      //<Channel>.send(attachment)\n}) \n```\n\n### youtube(avatar, username, text) => BUFFER\nKind: instance method of Meme\nReturns: Buffer - Can be easily transformed to an Image\n\n``` \nconst Meme = require(\"memer-api\");\nconst memer = new Meme('YOUR API TOKEN');\n\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; //only static images \nconst text = \"MEME API IS AWESOME\";\nconst username = \"MEME API\";\n\nmemer.youtube(avatar, username, text).then(image => {\n    //now you have a \"BUFFER\", for Discord create an attachment\n      //const attachment = new Discord.MessageAttachment(image, \"youtube.png\");\n      //<Channel>.send(attachment)\n}) \n```",
-          "path": "docs/methods/methods.md"
-        },
-        "list": {
           "name": "Methods List",
           "type": "md",
-          "content": "# METHODS\r\n* welcome(username,avatar,background)\r\n\r\n* leave(username,avatar,background)\r\n\r\n* abandon(text)\r\n\r\n* affect(avatar)\r\n\r\n* airpods(avatar)\r\n\r\n* america(avatar)\r\n\r\n* armor(text)\r\n\r\n* bed(avatar1, avatar2)\r\n\r\n* brazzers(avatar)\r\n\r\n* byemom(avatar, username, text)\r\n\r\n* cancer(avatar)\r\n\r\n* changemymind(text)\r\n\r\n* communism(avatar)\r\n\r\n* corporate(avatar)\r\n\r\n* cry(text)\r\n\r\n* dab(avatar)\r\n\r\n* delete(avatar)\r\n\r\n* disability(avatar)\r\n\r\n* door(avatar)\r\n\r\n* egg(avatar)\r\n\r\n* emergencymeeting(text)\r\n\r\n* excuseme(text)\r\n\r\n* facts(text)\r\n\r\n* failure(avatar)\r\n\r\n* fakenews(avatar)\r\n\r\n* floor(text, avatar)\r\n\r\n* godwhy(text)\r\n\r\n* hitler(avatar)\r\n\r\n* ipad(avatar)\r\n\r\n* jail(avatar)\r\n\r\n* keepdistance(text)\r\n\r\n* note(text)\r\n\r\n* obama(text, avatar)\r\n\r\n* roblox(avatar)\r\n\r\n* satan(avatar)\r\n\r\n* shit(text)\r\n\r\n* stroke(text)\r\n\r\n* trash(avatar)\r\n\r\n* tweet(avatar, username, text)\r\n\r\n* violence(text)\r\n\r\n* walking(text)\r\n\r\n* wanted(avatar)\r\n\r\n* whodidthis(avatar)\r\n\r\n* youtube(avatar, username, text)\r\n",
-          "path": "docs/methods/list.md"
+          "content": "# METHODS\r\n* welcome(username,avatar,background)\r\n\r\n* leave(username,avatar,background)\r\n\r\n* abandon(text)\r\n\r\n* affect(avatar)\r\n\r\n* airpods(avatar)\r\n\r\n* america(avatar)\r\n\r\n* armor(text)\r\n\r\n* bed(avatar1, avatar2)\r\n\r\n* brazzers(avatar)\r\n\r\n* byemom(avatar, username, text)\r\n\r\n* cancer(avatar)\r\n\r\n* changemymind(text)\r\n\r\n* communism(avatar)\r\n\r\n* corporate(avatar)\r\n\r\n* cry(text)\r\n\r\n* dab(avatar)\r\n\r\n* delete(avatar)\r\n\r\n* disability(avatar)\r\n\r\n* door(avatar)\r\n\r\n* egg(avatar)\r\n\r\n* emergencymeeting(text)\r\n\r\n* excuseme(text)\r\n\r\n* facts(text)\r\n\r\n* failure(avatar)\r\n\r\n* fakenews(avatar)\r\n\r\n* floor(text, avatar)\r\n\r\n* godwhy(text)\r\n\r\n* hitler(avatar)\r\n\r\n* ipad(avatar)\r\n\r\n* jail(avatar)\r\n\r\n* keepdistance(text)\r\n\r\n* note(text)\r\n\r\n* obama(text, avatar)\r\n\r\n* roblox(avatar)\r\n\r\n* satan(avatar)\r\n\r\n* shit(text)\r\n\r\n* stroke(text)\r\n\r\n* trash(avatar)\r\n\r\n* tweet(avatar, username, text)\r\n\r\n* violence(text)\r\n\r\n* walking(text)\r\n\r\n* wanted(avatar)\r\n\r\n* whodidthis(avatar)\r\n\r\n* youtube(avatar, username, text)",
+          "path": "test/docs/methods/methods.md"
         }
       }
     }
   },
+  "classes": [
+    {
+      "name": "Meme",
+      "description": "Mmemer API Memes Generator",
+      "methods": [
+        {
+          "name": "animequotes",
+          "description": "Sends a random anime quote.",
+          "returns": [
+            [
+              [
+                "json"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 25,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "savehumanity",
+          "description": "Generates a Meme on  SaveHumanity.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 46,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "stonks",
+          "description": "Generates a Meme on Stonks.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 66,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "abandon",
+          "description": "Generates a Meme on abandon.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 86,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "notstonks",
+          "description": "Generates a Meme on NotStonks.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 106,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "piccolo",
+          "description": "Generates a Meme on Piccolo.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 126,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "tornado",
+          "description": "Generates a Meme on Tornado.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text2",
+              "description": "Text2 to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 147,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "ohno",
+          "description": "Generates a Meme on Ohno.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 168,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "drake",
+          "description": "Generates a Meme on Drake.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 188,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "pepesign",
+          "description": "Generates a PepeSign meme.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 208,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "vr",
+          "description": "Generates a Meme on VR.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 228,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "search",
+          "description": "Generates a Meme on Search.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 249,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "failure",
+          "description": "Generates a Meme on Failure.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 269,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "trash",
+          "description": "Generates a Meme on Trash.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 289,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "satan",
+          "description": "Generates a Meme on Satan.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 309,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "stroke",
+          "description": "Generates a Meme on Stroke.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 329,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "roblox",
+          "description": "Generates a Meme on Roblox.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 349,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "hitler",
+          "description": "Generates a Meme on Hitler.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 369,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "bed",
+          "description": "Generates a Meme on Bed.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar1 URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "avatar",
+              "description": "Avatar2 URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 390,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "jail",
+          "description": "Generates a Meme on Jail.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 411,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "delete",
+          "description": "Generates a Meme on Delete.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 431,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "emergencymeeting",
+          "description": "Generates a Meme on EmergencyMeeting.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 451,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "byemom",
+          "description": "Generates a Meme on Byemom.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "username",
+              "description": "Username  of the user to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 473,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "draw25",
+          "description": "Generates a Meme on Draw25.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 496,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "walking",
+          "description": "Generates a Meme on Walking.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 517,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "keepdistance",
+          "description": "Generates a Meme on Keepdistance.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 537,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "fakenews",
+          "description": "Generates a Meme on Fakenews.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 557,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "wanted",
+          "description": "Generates a Meme on Wanted.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 577,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "godwhy",
+          "description": "Generates a Meme on Godwhy.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 597,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "violence",
+          "description": "Generates a Meme on Violence.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 617,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "ipad",
+          "description": "Generates a Meme on Ipad.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 637,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "laid",
+          "description": "Generates a Meme on Laid.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 657,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "ugly",
+          "description": "Generates a Meme on Ugly.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 677,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "shit",
+          "description": "Generates a Meme on Shit.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 697,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "humansgood",
+          "description": "Generates a Meme on humansgood.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 717,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "whodidthis",
+          "description": "Generates a Meme on whodidthis.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 737,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "floor",
+          "description": "Generates a Meme on Floor.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 758,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "obama",
+          "description": "Generates a Meme on Obama.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 780,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "note",
+          "description": "Generates a Meme on Note.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 801,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "america",
+          "description": "Generates a Meme on America.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 821,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "aborted",
+          "description": "Generates a Meme on Aborted.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 841,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "affect",
+          "description": "Generates a Meme on Affect.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 861,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "armor",
+          "description": "Generates a Meme on Armor.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 881,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "facts",
+          "description": "Generates a Meme on Facts.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 901,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "bongocat",
+          "description": "Generates a Meme on Bongocat.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 921,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "brazzers",
+          "description": "Generates a Meme on Brazzers.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 941,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "cancer",
+          "description": "Generates a Meme on Cancer.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 961,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "changemymind",
+          "description": "Generates a Meme on Changemymind.",
+          "params": [
+            {
+              "name": "text",
+              "description": "Text to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 981,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "communism",
+          "description": "Generates a Meme on Communism.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1000,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "corporate",
+          "description": "Generates a Meme on Corporate.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1020,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "cry",
+          "description": "Generates a Meme on Cry.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1040,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "dab",
+          "description": "Generates a Meme on Dab.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1060,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "disability",
+          "description": "Generates a Meme on Disability.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1080,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "door",
+          "description": "Generates a Meme on Door.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1100,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "egg",
+          "description": "Generates a Meme on Egg.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1120,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "excuseme",
+          "description": "Generates a Meme on Excuseme.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate meme",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1140,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "youtube",
+          "description": "Generates a Youtube Comment.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate youtube comment",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "username",
+              "description": "Username  of the user to Generate youtube comment",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate youtube comment",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1162,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "welcome",
+          "description": "Generates a Meme on Welcome.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate welcome image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "username",
+              "description": "Username  of the user to Generate welcome image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "background",
+              "description": "Background URL to Generate welcome image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1186,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "leave",
+          "description": "Generates a Meme on Leave.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate leave image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "username",
+              "description": "Username  of the user to Generate leave image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "background",
+              "description": "Background URL to Generate leave image",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1209,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        },
+        {
+          "name": "tweet",
+          "description": "Generates a Twitter Tweet.",
+          "params": [
+            {
+              "name": "avatar",
+              "description": "Avatar URL to Generate Twitter Tweet",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "username",
+              "description": "Username  of the user to Generate Twitter Tweet",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            },
+            {
+              "name": "text",
+              "description": "Text to Generate Twitter Tweet",
+              "type": [
+                [
+                  [
+                    "string"
+                  ]
+                ]
+              ]
+            }
+          ],
+          "async": true,
+          "returns": [
+            [
+              [
+                "Promise",
+                "<"
+              ],
+              [
+                "Buffer",
+                ">"
+              ]
+            ]
+          ],
+          "meta": {
+            "line": 1232,
+            "file": "Meme.js",
+            "path": "lib"
+          }
+        }
+      ],
+      "meta": {
+        "line": 16,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    }
+  ],
+  "interfaces": [],
+  "typedefs": [],
   "externals": []
 }
