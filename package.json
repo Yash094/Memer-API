@@ -10,7 +10,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "snekfetch": "^4.0.4"
+    "node-fetch": "^2.6.1"
   },
   "repository": {
     "type": "git",
