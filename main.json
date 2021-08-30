@@ -5,17 +5,7 @@
     "date": 1630240628045
   },
   "custom": {
-    "general": {
-      "name": "General",
-      "files": {
-        "welcome": {
-          "name": "Welcome",
-          "type": "md",
-          "content": "# Memer API\r\n<div align=\"center\"><br/>\r\n  <p>\r\n    <img style=\"width:0.5px\" src=\"https://cdn.discordapp.com/attachments/818900078077018162/859725706396041246/memer_api.png\" alt=\"memer-api\" />\r\n  </p><br/>\r\n  <p>\r\n    <a href=\"https://www.npmjs.com/package/memer-api\"><img src=\"https://img.shields.io/npm/dt/memer-api\" alt=\"NPM downloads\" /></a>\r\n    <a href=\"https://discord.gg/invite/emD44ZJaSA\"><img src=\"https://img.shields.io/discord/664505860327997461?color=5865F2&logo=discord&logoColor=white\" alt=\"Discord\"></a>\r\n  </p>\r\n</div>\r\n      \r\n> **Memer API is a powerful module that allows you to manipulate images very easily :)**\r\n\r\n## **Installation** \r\n```\r\nnpm install memer-api\r\n```\r\n```js\r\nconst Meme = require(\"memer-api\");\r\nconst memer = new Meme('Your Cool API Token');  // From Memer API Server :)\r\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\r\n```\r\n\r\n## LINKS\r\n\r\n- 📃 Guide/Docs: [Documentation](https://memer-api.js.org/)\r\n- 💬 Discord: [Server](https://discord.com/invite/emD44ZJaSA)\r\n\r\n\r\n## Features\r\n\r\n- Super simple and easy to use.\r\n- More than 50+ methods\r\n- Easy to Implement.\r\n- Great support and flexible.\r\n\r\n\r\n## Examples\r\n\r\n```js\r\nconst Meme = require(\"memer-api\")\r\nconst Discord = require(\"discord.js\")\r\ncosnt memer = new Meme('Your Cool API Token'); // From Memer API Server :)\r\n\r\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; // Only static images are supported :)\r\nconst text = \"Memer API is awesome!\"\r\n\r\nmemer.youtube(avatar, 'Memer Api', text).then(image => {\r\n    // This gives you a 'Buffer', for Discord to create an attachment\r\n    \r\n    var attachment = new Discord.MessageAttachment(image, \"youtube.png\");\r\n    <channel>.send(attachment)\r\n})\r\n```\r\n\r\n## Preview\r\n\r\n![preview](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)\r\n\r\n\r\n",
-          "path": "docs/general/welcome.md"
-        }
-      }
-    },
+    
     "changelog": {
       "name": "ChangeLog",
       "files": {
@@ -24,6 +14,18 @@
           "type": "md",
           "content": "# Memer API v4 is Here!!\r\n\r\n## Introducing Memer API Premium 🎉\r\n\r\n*Turn your bots into a party with Memer API Premium! With Premium -  you can upgrade your meme stuff support Memer API and get some cool perks!* 😎\r\n\r\n\r\n❓ What comes with Memer API premium?\r\n\r\n✅ No Ratelimits    \r\n✅ Access to Premium Package  \r\n✅ Watermark Free     \r\n✅ Priority Support     \r\n✅ Shiny Premium Discord Role     \r\n... And much much more\r\n\r\n❓ How to buy & activate premium ?\r\n\r\n1) Go to this [Link](https://ko-fi.com/memerapi)   \r\n2) Subscribe to the monthly or lifetime package  \r\n3) Type \"m!premium\" in any channel to get your token   \r\n4) Premium users shall make the request to [Premium Special API](https://premium.memer-api.live/), which has no limits",
           "path": "docs/changelog/changelog.md"
+        }
+      }
+      
+    },
+    "general": {
+      "name": "General",
+      "files": {
+        "welcome": {
+          "name": "Welcome",
+          "type": "md",
+          "content": "# Memer API\r\n<div align=\"center\"><br/>\r\n  <p>\r\n    <img style=\"width:0.5px\" src=\"https://cdn.discordapp.com/attachments/818900078077018162/859725706396041246/memer_api.png\" alt=\"memer-api\" />\r\n  </p><br/>\r\n  <p>\r\n    <a href=\"https://www.npmjs.com/package/memer-api\"><img src=\"https://img.shields.io/npm/dt/memer-api\" alt=\"NPM downloads\" /></a>\r\n    <a href=\"https://discord.gg/invite/emD44ZJaSA\"><img src=\"https://img.shields.io/discord/664505860327997461?color=5865F2&logo=discord&logoColor=white\" alt=\"Discord\"></a>\r\n  </p>\r\n</div>\r\n      \r\n> **Memer API is a powerful module that allows you to manipulate images very easily :)**\r\n\r\n## **Installation** \r\n```\r\nnpm install memer-api\r\n```\r\n```js\r\nconst Meme = require(\"memer-api\");\r\nconst memer = new Meme('Your Cool API Token');  // From Memer API Server :)\r\nmemer.<Method>(<Options>); //returns -> Promise -> <Buffer>\r\n```\r\n\r\n## LINKS\r\n\r\n- 📃 Guide/Docs: [Documentation](https://memer-api.js.org/)\r\n- 💬 Discord: [Server](https://discord.com/invite/emD44ZJaSA)\r\n\r\n\r\n## Features\r\n\r\n- Super simple and easy to use.\r\n- More than 50+ methods\r\n- Easy to Implement.\r\n- Great support and flexible.\r\n\r\n\r\n## Examples\r\n\r\n```js\r\nconst Meme = require(\"memer-api\")\r\nconst Discord = require(\"discord.js\")\r\ncosnt memer = new Meme('Your Cool API Token'); // From Memer API Server :)\r\n\r\nconst avatar = \"https://imgur.com/I5DmdNR.png\"; // Only static images are supported :)\r\nconst text = \"Memer API is awesome!\"\r\n\r\nmemer.youtube(avatar, 'Memer Api', text).then(image => {\r\n    // This gives you a 'Buffer', for Discord to create an attachment\r\n    \r\n    var attachment = new Discord.MessageAttachment(image, \"youtube.png\");\r\n    <channel>.send(attachment)\r\n})\r\n```\r\n\r\n## Preview\r\n\r\n![preview](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)\r\n\r\n\r\n",
+          "path": "docs/general/welcome.md"
         }
       }
     },
