@@ -1,8 +1,8 @@
 # Memer API
-<p align="center"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/818900078077018162/859725706396041246/memer_api.png"/></p><br/>
+<p align="center"><a href="https://memer-api.js.org/"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/801132434283954199/881571725106618428/memer_api.png"/></a></p><br/>
 <p align="center">
    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
-   <a href="https://discord.gg/invite/emD44ZJaSA"><img src="https://badgen.net/discord/online-members/emD44ZJaSA" alt="Discord"></a>
+   <a href="https://discord.gg/invite/emD44ZJaSA"><img src="https://img.shields.io/discord/664505860327997461?color=5865F2&label=Meme%20Development" alt="Discord Server"></a>
 </p>
       
 > **Memer API is a powerful module that allows you to manipulate images very easily :)**
@@ -26,7 +26,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ## Features
 
 - Super simple and easy to use.
-- More than 50+ methods
+- More than 50+ methods. Yay 🎉
 - Easy to Implement.
 - Great support and flexible.
 
@@ -70,5 +70,4 @@ Made by: [@Yash094](https://github.com/Yash094)
 ## Preview
 
 ![preview](https://cdn.discordapp.com/attachments/806750853947719760/843579019823546368/memer-api_preview.png)
-
 
