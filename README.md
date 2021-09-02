@@ -3,11 +3,12 @@
 <p align="center">
    <img alt="npm" src="https://img.shields.io/npm/dt/memer-api">
    <a href="https://discord.gg/invite/emD44ZJaSA"><img src="https://img.shields.io/discord/664505860327997461?color=5865F2&label=Meme%20Development" alt="Discord Server"></a>
+   <a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 </p>
       
 > **Memer API is a powerful module that allows you to manipulate images very easily :)**
 > 
-<a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## **Installation** 
 ```
