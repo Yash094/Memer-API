@@ -6,6 +6,8 @@
 </p>
       
 > **Memer API is a powerful module that allows you to manipulate images very easily :)**
+> 
+<a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## **Installation** 
 ```
