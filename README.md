@@ -7,8 +7,7 @@
 
 </p>
      <p align="center"> <a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="180"></a></p>
-> **Memer API is a powerful module that allows you to manipulate images very easily :)**
-> 
+ **Memer API is a powerful module that allows you to manipulate images very easily :)**
 
 ## **Installation** 
 ```
