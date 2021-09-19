@@ -65,7 +65,7 @@ There are many great image API's available on internet, however, I didn't find o
 Here's why:
 * Easy to use
 * Fast & Easy Support
-* Well DOcumented
+* Well Documented
 * Frequently updated
 
 
