@@ -1,12 +1,10 @@
 
 <p align="center">
    <img src="https://img.shields.io/npm/dt/memer-api?style=for-the-badge">
-   <img src="https://img.shields.io/github/forks/Yash094/Memer-API.svg?style=for-the-badge">
-   <img src="https://img.shields.io/github/contributors/Yash094/Memer-API.svg?style=for-the-badge">
    <img src="https://img.shields.io/github/stars/Yash094/Memer-API.svg?style=for-the-badge">
    <img src="https://img.shields.io/github/issues/Yash094/Memer-API.svg?style=for-the-badge">
-   <img src="https://img.shields.io/github/license/Yash094/Memer-API.svg?style=for-the-badge">
    <img src="https://img.shields.io/npm/v/memer-api?style=for-the-badge">
+   <img src="https://img.shields.io/github/license/Yash094/Memer-API.svg?style=for-the-badge">
 </p>   
 
 <!-- PROJECT LOGO -->
