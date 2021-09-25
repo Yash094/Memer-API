@@ -26,7 +26,7 @@
     ·
     <a href="https://github.com/Yash094/Memer-API/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Yash094/Memer-API/issues">Request Feature</a>
+    <a href="https://memer-api.live/discord">Discord</a>
   </p>
 </p>
 
