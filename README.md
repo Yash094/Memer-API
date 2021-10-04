@@ -12,7 +12,7 @@
      <p align="center"> <a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="180"></a></p>
 <p align="center">
 
-<p align="center"><a href="https://memer-api.js.org/"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/801132434283954199/881571725106618428/memer_api.png"/></a></p><br/>
+<p align="center"><a href="https://memer-api.js.org/"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/801132434283954199/881571725106618428/memer_api.png"/> </a></p><br/>
 
   <p align="center">
     <strong> An awesome module that allows you to manipulate images very easily, based on <a href="https://memer-api.live"> Memer API </a></strong>
