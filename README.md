@@ -97,7 +97,7 @@ memer.<Method>(<Options>); //returns -> Promise -> <Buffer>
 ```JS
 const Meme = require("memer-api")
 const Discord = require("discord.js")
-cosnt memer = new Meme('Your Cool API Token'); // From Memer API Server :)
+const memer = new Meme('Your Cool API Token'); // From Memer API Server :)
 
 const avatar = "https://imgur.com/I5DmdNR.png"; // Only static images are supported :)
 const text = "Memer API is awesome!"
