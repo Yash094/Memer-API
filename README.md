@@ -11,8 +11,6 @@
 <br />
  <p align="center"> 
 <a href="https://www.producthunt.com/posts/memer-api?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-memer-api" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=316947&theme=light" alt="Memer API - An API to manipulate images easily | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a></p>
-     <p align="center"> 
-   <a href="https://www.buymeacoffee.com/memerapi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="40" width="180"></a></p>
 <p align="center">
 
 <p align="center"><a href="https://memer-api.js.org/"><img align="center" style="width:0.5px" src="https://cdn.discordapp.com/attachments/801132434283954199/881571725106618428/memer_api.png"/> </a></p><br/>
