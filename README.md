@@ -21,13 +21,7 @@
     <a href="https://memer-api.js.org"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://memer-api.js.org">Wrapper Docs</a>
-    ·
-    <a href="https://memer-api.live">API Docs</a>
-    ·
-    <a href="https://github.com/Yash094/Memer-API/issues">Report Bug</a>
-    ·
-    <a href="https://memer-api.live/discord">Discord</a>
+   <a href="https://github.com/Yash094/Memer-API/issues">Report Bug</a>
   </p>
 </p>
 
