@@ -69,7 +69,7 @@ Here's why:
 
 ### Installation
 
-1. Get a free API Key at our [Discord Server.](https://memer-api.live/discord)
+1. Get a free API Key at our 
 2. Install the package
    ```sh
    npm install memer-api@latest
@@ -107,7 +107,7 @@ _For more examples, please refer to the [Documentation](https://memer-api.js.org
 <!-- limits -->
 ## Ratelimits
 Memer API limits each Request for 5 seconds i.e you can request 1 image every 5 seconds.
-If you want to remove the limit you can get premium [Here](https://memer-api.live/premium)
+If you want to remove the limit you can get premium 
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -138,8 +138,6 @@ Distributed under the CC-BY-NC-ND 4.0 License. See `LICENSE` for more informatio
 
 <!-- CONTACT -->
 ## Contact
-
-Yash - hello@memer-api.live
 
 Project Link: [https://github.com/Yash094/Memer-API](https://github.com/Yash094/Memer-API)
 
